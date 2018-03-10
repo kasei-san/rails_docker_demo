@@ -7,6 +7,12 @@
 $ docker-compose up
 ```
 
+## init
+
+```
+$ docker-compose run web bin/rake db:create db:migrate db:seed
+```
+
 ## stop
 
 ```
